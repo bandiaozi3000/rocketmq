@@ -5,14 +5,12 @@ import com.rocketmq.demo.rocketmq.dao.TransactionLogMapper;
 import com.rocketmq.demo.rocketmq.model.dto.OrderDTO;
 import com.rocketmq.demo.rocketmq.model.dto.TransactionLog;
 import com.rocketmq.demo.rocketmq.service.OrderService;
-import com.rocketmq.demo.rocketmq.service.TransactionLogService;
 import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.producer.TransactionListener;
 import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
